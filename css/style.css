@@ -48,10 +48,10 @@ header {
 }
 
 header img {
-    width: 61.09px;
-    height: 19px;
-    margin-top: 10px;
-  }
+  width: 61.09px;
+  height: 19px;
+  margin-top: 10px;
+}
 
 nav {
   display: flex;
@@ -68,7 +68,7 @@ nav div:hover {
 }
 
 main {
-    padding: 0 50px;
+  padding: 0 50px;
 }
 
 .title-box h1 {
@@ -89,12 +89,12 @@ main {
 }
 
 .search-bar input::placeholder {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 21px;
-    text-align: center;
-    color: black;
-  }
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: black;
+}
 
 .button-text {
   background-color: var(--main-color);
@@ -110,7 +110,7 @@ main {
 }
 
 .button-icon {
-    display: none;
+  display: none;
 }
 
 .location-container {
@@ -134,10 +134,10 @@ main {
 }
 
 .filter-title {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 21px;
-  }
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+}
 
 .filter-bar {
   display: flex;
@@ -174,7 +174,7 @@ main {
   border-radius: 50%;
   border: 2px solid var(--border-color);
 }
-  
+
 .card {
   background-color: white;
   border-radius: 20px;
@@ -217,18 +217,18 @@ main {
 }
 
 .section-title {
-    margin: 0;
-    font-size: 22px;
-  }
+  margin: 0;
+  font-size: 22px;
+}
 
 .hebergements-cards {
-    margin-top: 33px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 100%;
-    gap: 30px;
-  }
+  margin-top: 33px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  gap: 30px;
+}
 
 .hebergements-cards img {
   width: 100%;
@@ -253,9 +253,9 @@ main {
 }
 
 .affiche-link {
-    margin-top: 30px;
-    font-weight: 700;
-    font-size: 18px;
+  margin-top: 30px;
+  font-weight: 700;
+  font-size: 18px;
 }
 
 /****** Populaires ***********/
@@ -425,6 +425,13 @@ footer {
     padding: 10px 20px;
     align-items: center;
   }
+
+  .activities-container h3 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 0px;
+  }
 }
 
 /* Small devices (phones, less than 768px) */
@@ -482,16 +489,16 @@ footer {
   .button-icon {
     display: block;
     background-color: var(--main-color);
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 21px;
-  text-align: center;
-  border: none;
-  border-radius: 15px;
-  padding: 14px 16px;
-  cursor: pointer;
-  position: relative;
-  right: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    border: none;
+    border-radius: 15px;
+    padding: 14px 16px;
+    cursor: pointer;
+    position: relative;
+    right: 10px;
   }
 
   .button-icon i {
